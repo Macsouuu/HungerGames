@@ -1,0 +1,12 @@
+name: HungerGames
+version: 1.0
+author: Macsouuu
+main: fr.macsouuu.hg.Main
+commands:
+  menu:
+permissions:
+  menu.use:
+    children:
+      menu.use.hg: true
+      menu.use.hg.join: true
+      
